@@ -1,0 +1,17 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DepthData"
+        xmlns:WpfViewers="clr-namespace:Microsoft.Samples.Kinect.WpfViewers;assembly=Microsoft.Samples.Kinect.WpfViewers" x:Class="DepthData.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Closing="Window_Closing" Loaded="Window_Loaded">
+    <Grid>
+
+        <WpfViewers:KinectSensorChooser x:Name="kinectSensorChooser1" HorizontalAlignment="Left" Height="100" Margin="310,148,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image x:Name="image1" HorizontalAlignment="Left" Height="320" Margin="22,39,0,0" VerticalAlignment="Top" Width="320"/>
+        <TextBox x:Name="text_box1" HorizontalAlignment="Left" Height="70" Margin="22,341,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="761" RenderTransformOrigin="0.484,0.472" FontSize="24" UndoLimit="500"/>
+
+    </Grid>
+</Window>
