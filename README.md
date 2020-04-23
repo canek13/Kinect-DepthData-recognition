@@ -17,5 +17,8 @@
   One hand up, one down -- Right or Left. Depends on witch one is higher.
   
   Handler also sends text like: "Get clouser to the sensor" or "There is smth except you". 
-  So you need to stand in font of it for about 2m, hands should be directed on Kinect and it prefers that nothing big is located near you.
+  So you need to stand in front of it for about 2m, hands should be directed on Kinect and it prefers that nothing big is located near you.
   Best to stand near wall.
+
+# Video example
+  https://cloud.mail.ru/public/4MCh/2TBySVpFm
